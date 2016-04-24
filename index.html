@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Navodaya Tarbha Alumni Association - Official Website - Home</title>
+	<meta name="keywords" content="JNV, JNV Tarbha, JNV Sonepur, JNV Subarnapur, Subarnapur, Sonepur, Odisha, Navodaya, Alumni, Alumni Association" />
+	<meta name="description" content="JNV, JNV Tarbha, JNV Sonepur, JNV Subarnapur, Subarnapur, Sonepur, Odisha, Navodaya, Alumni, Alumni Association">
+	<meta name="author" content="www.zerotheme.com">
+	<meta name="author" content="Eureka Nexus Web">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery183.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+    
+</head>
+<body>
+<div class="wrap-body">
+
+<!--////////////////////////////////////Header-->
+<header class="bg-theme">
+	<div class="wrap-header zerogrid">
+		<div class="row">
+			<div id="cssmenu">
+				<ul>
+				   <li class='active'><a href="http://jnvtsoaa-dev.hol.es/">Home</a></li>
+				   <li><a href="about.html">About</a></li>
+				   <li><a href="contact.html">Contact</a></li>
+				   <li><a href="myAccount.html">My Account</a></li>
+				</ul>
+			</div>
+			<a href='http://jnvtsoaa-dev.hol.es/' class="logo"><img src="images/logo.png" /></a>
+		</div>
+	</div>
+</header>
+<div class="slider">
+	<!-- Slideshow -->
+	<div class="callbacks_container">
+		<ul class="rslides" id="slider">
+			<li>
+				<img src="images/jnv-front.jpg" alt="">
+				<div class="caption">
+					<h6>Welcome to the Official Website of</h6>
+					<span>Navodaya Tarbha Alumni Association</span>
+				</div>
+			</li>
+			<!--<li>
+				<img src="images/jnv-flag-hoisting.jpg" alt="">
+				<div class="caption">
+					<h1>CAR DEALER WEBSITE NAME</h1>
+					<span >Lorem ipsum dolor sit amet</span>
+				</div>
+			</li>
+			<li>
+				<img src="images/slideshow-image3.jpg" alt="">
+				<div class="caption">
+					<h1>CAR DEALER WEBSITE NAME</h1>
+					<span >Lorem ipsum dolor sit amet</span>
+				</div>
+			</li>-->
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div class="bg-theme">
+	<div class="filter zerogrid">
+		<h2 class="t-center">FIND AN ALUMNI</h2>
+		<div class="row">
+			<div class="col-3-3">
+				<div class="wrap-col">
+					<div class="contact">
+						<div id="contact_form">
+							<form name="form1" id="frmHomeAlumniSearch" method="post" action="controller.php">
+								<label class="row">
+									<div class="col-1-2">
+										<div class="wrap-col">
+											<input type="text" name="first_name" id="first_name" placeholder="Enter first name" required="required" />
+										</div>
+									</div>
+									<div class="col-1-2">
+										<div class="wrap-col">
+											<input type="text" name="last_name" id="last_name" placeholder="Enter last name" required="required" />
+										</div>
+									</div>
+								</label>
+								<label class="row">
+									<div class="col-1-2">
+										<div class="wrap-col">
+											<input type="email" name="email" id="email" placeholder="Enter email" required="required" />
+										</div>
+									</div>
+									<div class="col-1-2">
+										<div class="wrap-col">
+											<input type="number" name="phone" id="phone" placeholder="Enter phone number" required="required" />
+										</div>
+									</div>
+								</label>
+								<center>
+									<input class="sarchButton" type="submit" name="searchBtn" value="Search">
+								</center>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="col-1-4">
+				<div class="wrap-col">
+					<br>
+					<a href="#" class="button bt1">Search</a>
+				</div>
+			</div>-->
+		</div>
+	</div>
+</div>
+
+<!--////////////////////////////////////Container-->
+<section id="container">
+	<div class="wrap-container clearfix">
+		<div id="main-content">
+			<div class="wrap-box t-center" style="background: #fff; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);"><!--Start Box-->
+				<div class="zerogrid">
+					<div class="header">
+						<h2>JNV TARBHA AND NAVODAYA TARBHA ALUMNI ASSOCIATION</h2>
+					</div>
+					<strong>Brief information about the Vidyalaya and the alumni association.</strong>
+					<p>
+						The Navodaya Vidyalaya System is a unique experiment unparalleled in the annals of school education in India
+						whose significance lies in the selection of talented rural children as the target group and the attempt to 
+						provide them with quality education comparable to the best in a residential school system. Navodaya Vidyalayas
+						are there in every districts of all Indian states and union territories except Tamilnadu.
+					</p>
+					<p>
+						Jawahar Navodaya Vidyalaya, Tarbha is the Vidyalaya for Subarnapur district of the state Odisha. The Vidyalaya
+						started its operation in 2001 and it's first batch completed their Tenth standard in 2006 and migrated to other
+						Vidyalayas as being in the temporary site, the Vidyalaya had no accommodation for Intermediate studies. The 
+						Vidyalaya is now moved to its permanent site and Intermediate studies for Arts and Science streams have been 
+						introduced.
+					</p>
+					<p>
+						This website is dedicated to all the alumni studied in the Vidyalaya. This website has been developed and maintained 
+						by the alumni themselves. There are many volunteer alumni who are associated with the association in many different 
+						positions leading the association from the front.
+					</p>
+				</div>
+			</div>
+			<div class="wrap-box" ><!--Start Box-->
+				<div class="zerogrid">
+					<div class="header">
+						<h2>THE MEMBERS OF THE ASSOCIATION</h2>
+					</div>
+					<div class="row">
+						<div class="col-2-3">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="item">
+										<div class="col-1-3">
+											<div class="item-container">
+												<a href="sendMessage.html">
+													<div class="item-caption">
+														<div class="item-caption-inner">
+															<div class="item-caption-inner1">
+																<span>CLICK TO SEND A MESSAGE/VIEW PROFILE</span>
+															</div>
+														</div>
+													</div>
+													<img src="images/user-icon-male.png" />
+												</a>
+											</div>
+										</div>
+										<div class="col-2-3">
+											<div class="wrap-col">
+												<div class="item-info">
+													<a href="viewFullProfile.html">
+														<h3>Mr. Firstname Lastname</h3>
+													</a>
+													<p>President</p>
+													<p>2001-2006 (1st batch)</p>
+													<p>Phone: +91 - xxxxxxxxxx</p>
+													<p>Email: president@jnvtarbhaalumni.org.in</p>
+												</div>
+											</div>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="item">
+										<div class="col-1-3">
+											<div class="item-container">
+												<a href="sendMessage.html">
+													<div class="item-caption">
+														<div class="item-caption-inner">
+															<div class="item-caption-inner1">
+																<span>CLICK TO SEND A MESSAGE/VIEW PROFILE</span>
+															</div>
+														</div>
+													</div>
+													<img src="images/user-icon-female.png" />
+												</a>
+											</div>
+										</div>
+										<div class="col-2-3">
+											<div class="wrap-col">
+												<div class="item-info">
+													<a href="viewFullProfile.html">
+														<h3>Mrs. Firstname Lastname</h3>
+													</a>
+													<p>Vice President</p>
+													<p>2002-2007 (2nd batch)</p>
+													<p>Phone: +91 - xxxxxxxxxx</p>
+													<p>Email: vice.president@jnvtarbhaalumni.org.in</p>
+												</div>
+											</div>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="sidebar" class="col-1-3">
+							<div class="wrap-col">
+								<!---- Start Widget ---->
+								<div class="widget">
+									<div class="wid-header">
+										<h5>GET CONNECTED</h5>
+									</div>
+									<div class="wid-content">
+										<p>By registering with us you get some privileged features that are only available for the registered users.</p>
+										<a href="signIn.html" class="button bt1">SignIn</a>
+										<a href="signUp.html" class="button bt1">SignUp</a>
+										<a href="membershipRequest.html" class="button bt1">WhatsApp Group Membership Request</a>
+										<a href="membershipRequest.html" class="button bt1">Facebook Group Membership Request</a>
+										<a href="membershipRequest.html" class="button bt1">Admin Right Request</a>
+									</div>
+								</div>
+								<!---- Start Widget ---->
+								<!--<div class="widget">
+									<div class="wid-header">
+										<h5>About Us</h5>
+									</div>
+									<div class="wid-content">
+										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. </p>
+										<a href="#">Read More About Us</a>
+									</div>
+								</div>-->
+								<!---- Start Widget ---->
+								<!--<div class="widget wid-post">
+									<div class="wid-header">
+										<h5>News Update</h5>
+									</div>
+									<div class="wid-content">
+										<div class="post">
+											<a href="#"><img src="images/car8.jpg"/></a>
+											<div class="wrapper">
+											  <h5><a href="#">Lorem ipsum dolor</a></h5>
+											   <span>$25 - $26</span>
+											</div>
+										</div>
+										<div class="post">
+											<a href="#"><img src="images/car9.jpg"/></a>
+											<div class="wrapper">
+											  <h5><a href="#">Lorem ipsum dolor</a></h5>
+											  <span>$25 - $26</span>
+											</div>
+										</div>
+										<div class="post">
+											<a href="#"><img src="images/car10.jpg"/></a>
+											<div class="wrapper">
+											  <h5><a href="#">Lorem ipsum dolor</a></h5>
+											   <span>$25 - $26</span>
+											</div>
+										</div>
+									</div>
+								</div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap-box"><!--Start Box-->
+				<div class="zerogrid">
+					<div class="header">
+						<h2>HAPPY BIRTH DAY</h2>
+					</div>	
+					<div class="row">
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-male.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile.html"><h3>Mr. Firstname Lastname</h3></a>
+										<p>2001-2006 (1st batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-female.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile.html"><h3>Mrs. Firstname Lastname</h3></a>
+										<p>2002-2007 (2nd batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-male.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile.html"><h3>Mr. Firstname Lastname</h3></a>
+										<p>2003-2008 (3rd batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap-box"><!--Start Box-->
+				<div class="zerogrid">
+					<div class="header">
+						<h2>HAPPY MARRIAGE ANIVERSARY</h2>
+					</div>	
+					<div class="row">
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-female.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile.html"><h3>Mrs. Firstname Lastname</h3></a>
+										<p>2001-2006 (1st batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-male.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile.html"><h3>Mr. Firstname Lastname</h3></a>
+										<p>2002-2007 (2nd batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<div class="item t-center">
+									<div class="item-container">
+										<a href="sendMessage.html">
+											<div class="item-caption">
+												<div class="item-caption-inner">
+													<div class="item-caption-inner1">
+														<span>CLICK TO WISH/VIEW PROFILE</span>
+													</div>
+												</div>
+											</div>
+											<img src="images/user-icon-female.png" />
+										</a>
+									</div>
+									<div class="item-info">
+										<a href="viewFullProfile"><h3>Mrs. Firstname Lastname</h3></a>
+										<p>2003-2008 (3rd batch)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--////////////////////////////////////Footer-->
+<footer>
+	<div class="zerogrid">
+		<div class="wrap-footer">
+			<div class="row">
+				<h3>Contact</h3>
+				<span>Phone / +91 xxxxx-xxxxx / +91 xxxxx-xxxxx </span></br>
+				<span>Email / contact@jnvtarbhaalumni.org.in / contact.jnvtarbhaalumni@gmail.com </span></br>
+				<span>Registered Office / xxx, xxx, xxx, Sonepur, Subarnapur, PIN: xxxxxx </span></br>
+				<hr color="#000000"/>
+				<span>
+					<strong><a href="http://www.zerotheme.com" rel="nofollow" target="_blank">Html5 Templates</a> 
+							Designed by <a href="http://www.zerotheme.com" rel="nofollow" target="_blank">ZEROTHEME</a>
+					</strong>
+				</span></br>
+				<span>
+					<strong>Copyright 2016 - Developed and Maintained with lots of Love by Eureka Nexus Web</strong>
+				</span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div>
+</body></html>
