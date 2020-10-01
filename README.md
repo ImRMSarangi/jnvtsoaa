@@ -1,2 +1,2 @@
 # jnvtsoaa
-Official Website for Jawahar Navodaya Vidyalaya, Tarbha, Subarnapur, Odisha Alumni Association
+This is the Official Website for Jawahar Navodaya Vidyalaya, Tarbha, Subarnapur, Odisha Alumni Association
